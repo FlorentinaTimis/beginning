@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.body {
+    font-family: 'Playfair Display', sans-serif;
+    background-image: url('cascada_cailor_borsa_telescaun_003.jpg');
+    background-size: 100vw;
+    background-attachment: fixed;
+}
+
+.container-1 {
+    background-color: white;
+}
+
+.full-width {
+    min-height: 100vw;
+    min-width: 100vw;
+}
+
+.navbar {
+    height: 8rem;
+    width: 100%;
+    font-size: 2rem;
+    background-color: #D3D3D3;
+    transition: 0.3s all ease-in-out;
+}
+
+.navbar-brand {
+    font-size: 3rem;
+}
+
+.navbar-nav {
+    width: 60rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    width: 100%;
+    height: 50rem;
+    background-color: #D3D3D3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header h1 {
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0, 0.3);
+    letter-spacing: 1rem;
+    line-height: 5rem;
+    text-align: center;
+    padding: 4rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.header h2 {
+    margin-top: 2rem;
+    opacity: 0.6;
+    position: relative;
+}
+
+.reservation {
+    width: 30rem;
+    height: 7rem;
+    margin-top: 10;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    top: 30rem;
+    left: 0rem;
+    transform: rotateZ(-89deg);
+    transition: transform 0.2s;
+}
+
+.reservation a {
+    color: black;
+    text-decoration: none;
+    margin: 0.7rem;
+    letter-spacing: 1rem;
+    display: flex;
+}
+
+.reservation a:nth-child(2) {
+    font-size: 2rem
+}
+
+.reservation a:nth-child(1) {
+    font-size: 1.7rem;
+    letter-spacing: 0.2rem;
+    transform: translateY(1rem);
+}
+
+.telephone {
+    width: 150%;
+    height: 150%;
+    padding: 1rem;
+    transform: rotateZ(89deg) scaleX(0.8) scaleY(0.8) translate(-1.1rem, 1ex);
+    left: 0.1rem;
+    top: 4.5rem;
+}
+
+.mountain {
+    width: 50rem;
+    height: 20rem;
+    bottom: 0;
+}
+
+.section-padding {
+
+    width: 1100px;
+    font-size: 1.7rem;
+    left: 10rem;
+    margin-left: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    line-height: 2.6rem;
+}
+
+.section-padding h1 {
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+    margin-left: 2rem;
+    font-size: 4rem;
+}
+
+.about {
+    margin-bottom: -3rem;
+}
+
+.about-images {
+    display: grid;
+    position: relative;
+    box-sizing: content-box;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 3rem;
+    top: 8rem;
+    left: 7rem;
+}
+
+.landscape {
+    width: 35rem;
+    height: 25rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.flowers {
+    grid-column: 1/3;
+    align-items: end;
+}
+
+.tradition {
+    grid-column: 2/4;
+    align-items: start
+}
+
+.gap {
+    grid-column: 4rem;
+}
+
+.container-2 {
+    background-color: #E5E4E2;
+}
+
+.pension>img {
+    margin-top: 2rem;
+    width: 50rem;
+    height: 60rem;
+}
+
+.info {
+    margin: 25rem 0 0 3rem;
+}
+
+.facilities {
+
+    width: 90vw;
+    height: 110rem;
+    display: inline-block;
+    margin-bottom: 5rem;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    gap: 3rem;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+}
+
+.service {
+    height: 25rem;
+    width: 37rem;
+    border-width: 0.2rem;
+    border-color: goldenrod;
+    border-style: solid;
+    background-color: white;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.icon {
+    padding: 3rem;
+    display: inline-block;
+    color: goldenrod;
+    transform: scale(2.5);
+}
+
+.service>section {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-left: 2rem;
+    letter-spacing: 0.2rem;
+}
+
+.service>h2 {
+    font-weight: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.bgc-icon {
+    transform: scale(10);
+    position: absolute;
+    top: 13rem;
+    left: 17rem;
+    color: grey;
+    opacity: 0.1;
+}
+
+.drag {
+    transform: traslateX(30);
+    overflow: hidden;
+}
+
+.container-3 {
+    background-color: #131313;
+    color: white;
+    min-height: 50vw;
+}
+
+.rooms {
+    display: flex;
+    justify-content: flex-start;
+    display: inline-block;
+}
+
+.rooms-display {
+    display: flex;
+}
+
+.rooms>h1 {
+    padding: 0;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.room {
+
+    height: 30rem;
+    width: 40rem;
+    margin-top: 1.5rem;
+    margin-right: 3rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.room>img {
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 0.9;
+    border-radius: 1%;
+    transition: 0.5s all ease-in-out;
+}
+
+.room>section {
+    position: absolute;
+    top: 20rem;
+    right: 1.2rem;
+    color: white;
+}
+
+.room>img:hover {
+    filter: brightness(50%);
+    transition: 0.5s all ease-in-out;
+    transform: scale(1.5);
+}
+
+.scrolled {
+
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    z-index: 10;
+    position: fixed;
+}
+
+.container-4 {
+
+    background-color: #fff;
+}
+
+.mapouter {
+    margin-left: 5rem;
+    margin-top: 5rem;
+    display: inline;
+}
+
+.mapouter>h1 {
+    margin-left: 1rem;
+    display: flex;
+}
+
+@media(max-width: 600px) and (min-width: 300px) {
+    .navbar-brand {
+        font-size: 2rem;
+    }
+
+    .mountain {
+        width: 30rem;
+        height: 15rem;
+    }
+
+    .reservation {
+        height: 1rem;
+        width: 13rem;
+        left: -7rem;
+        top: 20rem;
+    }
+
+    .telephone-icon {
+        display: none;
+    }
+
+    .full-width {
+        min-width: 131vw;
+        margin-left: 7rem;
+    }
+
+    .section-padding {
+        width: 140vw;
+        height: 100vw;
+
+
+    }
+
+    .about-images {
+        display: none;
+    }
+
+    .pension {
+        display: none;
+    }
+
+    .info>section {
+        top: -15rem;
+    }
+}
